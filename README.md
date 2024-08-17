@@ -1,3 +1,8 @@
+# Solutions to the ziglings.org exercises.
+These are my solutions to the ziglings.org exercises.
+
+See https://codeberg.org/ziglings/exercises/ for the real deal.
+
 # Ziglings
 
 Welcome to Ziglings! This project contains a series of tiny
