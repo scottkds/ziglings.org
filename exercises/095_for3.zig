@@ -54,7 +54,9 @@ pub fn main() void {
 
     // I want to print every number between 1 and 20 that is NOT
     // divisible by 3 or 5.
-    for (???) |n| {
+    const start = 1;
+    const stop = 20;
+    for (start..stop) |n| {
 
         // The '%' symbol is the "modulo" operator and it
         // returns the remainder after division.
