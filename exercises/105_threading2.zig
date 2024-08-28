@@ -84,8 +84,6 @@ pub fn main() !void {
         const handle2 = try std.Thread.spawn(.{}, thread_pi, .{ &pi_minus, 3, count });
         defer handle2.join();
     }
-    // std.debug.print("Return from handle1: {d}", .{pi_plus});
-    // std.debug.print("Return from handle2: {d}", .{pi_plus});
 
     // Here we add up the results.
     std.debug.print("PI ≈ {d:.8}\n", .{4 + pi_plus - pi_minus});
